@@ -22,6 +22,7 @@ window.matchMedia("(prefers-color-scheme:dark)")
             applyTheme(getSystemTheme());
         }
     })
+// Theme Changes 
 
 document.querySelector("button").addEventListener("click", () => {
     const currentTheme = document.body.classList.contains("dark")
@@ -32,3 +33,4 @@ document.querySelector("button").addEventListener("click", () => {
     localStorage.setItem("theme", newTheme);
 
 })
+
